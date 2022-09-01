@@ -13,6 +13,13 @@
 		182068DE28B0F4F400DB5752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182068DC28B0F4F400DB5752 /* Main.storyboard */; };
 		182068E028B0F4F500DB5752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182068DF28B0F4F500DB5752 /* Assets.xcassets */; };
 		182068E328B0F4F500DB5752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182068E128B0F4F500DB5752 /* LaunchScreen.storyboard */; };
+		182068ED28B1142300DB5752 /* UiTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182068EC28B1142300DB5752 /* UiTextFieldExtension.swift */; };
+		182068EF28B1153F00DB5752 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182068EE28B1153F00DB5752 /* UIViewExtension.swift */; };
+		182068F228B119D300DB5752 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182068F028B119D300DB5752 /* DataModel.xcdatamodeld */; };
+		186A864228BE3640006A1867 /* Consumer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A864028BE3640006A1867 /* Consumer+CoreDataProperties.swift */; };
+		186A864328BE3640006A1867 /* Consumer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A864128BE3640006A1867 /* Consumer+CoreDataClass.swift */; };
+		18BE87AA28BF80C100903665 /* ConsumerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE87A928BF80C100903665 /* ConsumerModel.swift */; };
+		2D5EA2B600D764FEC2093797 /* Pods_EnergyConsumptionCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A19C04C9B4C3128808791 /* Pods_EnergyConsumptionCalculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		182068DF28B0F4F500DB5752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182068E228B0F4F500DB5752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182068E428B0F4F500DB5752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182068EC28B1142300DB5752 /* UiTextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTextFieldExtension.swift; sourceTree = "<group>"; };
+		182068EE28B1153F00DB5752 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		182068F128B119D300DB5752 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		186A864028BE3640006A1867 /* Consumer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Consumer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		186A864128BE3640006A1867 /* Consumer+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Consumer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18BE87A928BF80C100903665 /* ConsumerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumerModel.swift; sourceTree = "<group>"; };
+		6E0A19C04C9B4C3128808791 /* Pods_EnergyConsumptionCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnergyConsumptionCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B52516E4E0061CA91253F13 /* Pods-EnergyConsumptionCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnergyConsumptionCalculator.release.xcconfig"; path = "Target Support Files/Pods-EnergyConsumptionCalculator/Pods-EnergyConsumptionCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		E823A47E4EFB9F4B9D3A5BC2 /* Pods-EnergyConsumptionCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnergyConsumptionCalculator.debug.xcconfig"; path = "Target Support Files/Pods-EnergyConsumptionCalculator/Pods-EnergyConsumptionCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5EA2B600D764FEC2093797 /* Pods_EnergyConsumptionCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				182068D528B0F4F400DB5752 /* EnergyConsumptionCalculator */,
 				182068D428B0F4F400DB5752 /* Products */,
+				57BD0CEBBBB373A9FC7A410B /* Pods */,
+				EEB1546F185483C8B79FDF6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,7 @@
 		182068D528B0F4F400DB5752 /* EnergyConsumptionCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				1876947228B5E93D009A1461 /* Model */,
 				182068D628B0F4F400DB5752 /* AppDelegate.swift */,
 				182068D828B0F4F400DB5752 /* SceneDelegate.swift */,
 				182068DA28B0F4F400DB5752 /* ViewController.swift */,
@@ -63,8 +83,38 @@
 				182068DF28B0F4F500DB5752 /* Assets.xcassets */,
 				182068E128B0F4F500DB5752 /* LaunchScreen.storyboard */,
 				182068E428B0F4F500DB5752 /* Info.plist */,
+				182068EC28B1142300DB5752 /* UiTextFieldExtension.swift */,
+				182068EE28B1153F00DB5752 /* UIViewExtension.swift */,
+				182068F028B119D300DB5752 /* DataModel.xcdatamodeld */,
 			);
 			path = EnergyConsumptionCalculator;
+			sourceTree = "<group>";
+		};
+		1876947228B5E93D009A1461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				186A864128BE3640006A1867 /* Consumer+CoreDataClass.swift */,
+				186A864028BE3640006A1867 /* Consumer+CoreDataProperties.swift */,
+				18BE87A928BF80C100903665 /* ConsumerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57BD0CEBBBB373A9FC7A410B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E823A47E4EFB9F4B9D3A5BC2 /* Pods-EnergyConsumptionCalculator.debug.xcconfig */,
+				9B52516E4E0061CA91253F13 /* Pods-EnergyConsumptionCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEB1546F185483C8B79FDF6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A19C04C9B4C3128808791 /* Pods_EnergyConsumptionCalculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +124,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182068E728B0F4F500DB5752 /* Build configuration list for PBXNativeTarget "EnergyConsumptionCalculator" */;
 			buildPhases = (
+				81EE6A556C65C010E72F0C40 /* [CP] Check Pods Manifest.lock */,
 				182068CF28B0F4F400DB5752 /* Sources */,
 				182068D028B0F4F400DB5752 /* Frameworks */,
 				182068D128B0F4F400DB5752 /* Resources */,
@@ -133,14 +184,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81EE6A556C65C010E72F0C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnergyConsumptionCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182068CF28B0F4F400DB5752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BE87AA28BF80C100903665 /* ConsumerModel.swift in Sources */,
+				182068EF28B1153F00DB5752 /* UIViewExtension.swift in Sources */,
 				182068DB28B0F4F400DB5752 /* ViewController.swift in Sources */,
+				182068ED28B1142300DB5752 /* UiTextFieldExtension.swift in Sources */,
+				182068F228B119D300DB5752 /* DataModel.xcdatamodeld in Sources */,
 				182068D728B0F4F400DB5752 /* AppDelegate.swift in Sources */,
 				182068D928B0F4F400DB5752 /* SceneDelegate.swift in Sources */,
+				186A864228BE3640006A1867 /* Consumer+CoreDataProperties.swift in Sources */,
+				186A864328BE3640006A1867 /* Consumer+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +364,7 @@
 		};
 		182068E828B0F4F500DB5752 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E823A47E4EFB9F4B9D3A5BC2 /* Pods-EnergyConsumptionCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +393,7 @@
 		};
 		182068E928B0F4F500DB5752 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B52516E4E0061CA91253F13 /* Pods-EnergyConsumptionCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +442,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182068F028B119D300DB5752 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182068F128B119D300DB5752 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 182068F128B119D300DB5752 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 182068CB28B0F4F400DB5752 /* Project object */;
 }
